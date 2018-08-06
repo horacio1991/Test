@@ -11,7 +11,7 @@ Feature: Registration
 
     Examples:
       | email                | name      | last_name | password     | gender | company   | address      | city         | state    | cp      | country         | home_phone | mobile_phone | future_address | address_2 | comment   |
-      | "horacios@gmail.com" | "horacio" | "tovo"    | "horacio123" | "Mr"   | "addidas" | "avellaneda" | "carlos paz" | "Kansas" | "50000" | "United States" | "454425"   | "15641452"   | "colon"        | "lua"     | "bla bla" |
+      | "horaciosi@gmail.com" | "horacio" | "tovo"    | "horacio123" | "Mr"   | "addidas" | "avellaneda" | "carlos paz" | "Kansas" | "50000" | "United States" | "454425"   | "15641452"   | "colon"        | "lua"     | "bla bla" |
 
   @SVT
   Scenario Outline: Create an User only with required information
@@ -24,5 +24,5 @@ Feature: Registration
 
     Examples:
       | email               | name      | last_name | password     | gender | company | address      | city         | state    | cp      | country         | home_phone | mobile_phone | future_address | address_2 | comment |
-      | "horacio@gmail.com" | "horacio" | "tovo"    | "horacio123" | "Mr"   | "NO"    | "avellaneda" | "carlos paz" | "Kansas" | "50000" | "United States" | "NO"       | "15641452"   | "colon"        | "NO"      | "NO"    |
+      | "horaciao@gmail.com" | "horacio" | "tovo"    | "horacio123" | "Mr"   | "NO"    | "avellaneda" | "carlos paz" | "Kansas" | "50000" | "United States" | "NO"       | "15641452"   | "colon"        | "NO"      | "NO"    |
 
